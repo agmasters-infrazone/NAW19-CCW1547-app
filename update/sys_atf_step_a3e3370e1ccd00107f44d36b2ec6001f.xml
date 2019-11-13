@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Set the values on the form as follows:
+Receiver = System Administrator
+and Submitter = {{Step 1: Create a User.User}}
+and Score = 5
+and What is the primary reason for the number you gave? = To see how much attention you pay to these</description>
+        <display_name>Set Field Values</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>7</order>
+        <snapshot/>
+        <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-13 02:55:39</sys_created_on>
+        <sys_id>a3e3370e1ccd00107f44d36b2ec6001f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="Peer Review" source="x_274523_peer_revi">0128d8281b277b0090824196bc4bcbd2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Peer Review">0128d8281b277b0090824196bc4bcbd2</sys_scope>
+        <sys_update_name>sys_atf_step_a3e3370e1ccd00107f44d36b2ec6001f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-13 02:57:32</sys_updated_on>
+        <table>x_274523_peer_revi_feedback</table>
+        <test display_value="Test NPS update">4ed2f7ca1ccd00107f44d36b2ec60079</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=a3e3370e1ccd00107f44d36b2ec6001f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a3e3370e1ccd00107f44d36b2ec6001f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-13 02:55:39</sys_created_on>
+        <sys_id>2b14f30e1ccd00107f44d36b2ec60052</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-13 02:55:39</sys_updated_on>
+        <value>x_274523_peer_revi_feedback</value>
+        <variable display_value="">424ca6465320220002c6435723dc34b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a3e3370e1ccd00107f44d36b2ec6001f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-13 02:55:39</sys_created_on>
+        <sys_id>2f14f30e1ccd00107f44d36b2ec60052</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-13 02:55:39</sys_updated_on>
+        <value>receiver=6816f79cc0a8016401c5a33be04be441^submitter={{step['5df23fca1ccd00107f44d36b2ec600cd'].user}}^score=5^question=To see how much attention you pay to these^EQ</value>
+        <variable display_value="">b3dba2465320220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a3e3370e1ccd00107f44d36b2ec6001f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>a3e3370e1ccd00107f44d36b2ec6001f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-13 02:55:39</sys_created_on>
+        <sys_id>a714f30e1ccd00107f44d36b2ec60052</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-13 02:55:39</sys_updated_on>
+        <table>var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e</table>
+        <value>receiver=6816f79cc0a8016401c5a33be04be441^submitter={{step['5df23fca1ccd00107f44d36b2ec600cd'].user}}^score=5^question=To see how much attention you pay to these^EQ</value>
+    </sys_element_mapping>
+</record_update>
